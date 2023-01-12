@@ -74,11 +74,11 @@ console.log(`SOZUN MASSIV SHEKLI     ${wordArray}`);
 wordArray.reverse();
 console.log(`CEVRILMISH MASSIV       ${wordArray}`);
 
-let reversedWord = "";
+let reversedWord = wordArray.join("");
 
-for(let i=0; i<wordArray.length; i++){
-    reversedWord += wordArray[i]
-}
+// for(let i=0; i<wordArray.length; i++){
+//     reversedWord += wordArray[i]
+// }
 console.log(`CEVRILMISH SOZ          ${reversedWord}`);
 
 }
@@ -170,4 +170,4 @@ const arrayCompare = () => {
 
 }
 
-arrayCompare()
+// arrayCompare()
