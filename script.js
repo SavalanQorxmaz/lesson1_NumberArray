@@ -9,10 +9,10 @@ const swap3 = () => {
    let a = Number(prompt(`1-ci ededi daxil et`));
    let b= Number(prompt(`ikinci ededi daxil et`));
 
-    console.log(typeof a);
-    console.log(typeof b);
-    console.log(a.valueOf() );
-    console.log(b.valueOf() );
+    // console.log(typeof a);
+    // console.log(typeof b);
+    // console.log(a.valueOf() );
+    // console.log(b.valueOf() );
 
     if(isNaN(a) || isNaN(b) ) {
         console.log(` arqumentler eded deyil`);     
@@ -36,10 +36,10 @@ const swap = () => {
     let a = Number(prompt(`1-ci ededi daxil et`));
     let b= Number(prompt(`ikinci ededi daxil et`));
  
-     console.log(typeof a);
-     console.log(typeof b);
-     console.log(a.valueOf() );
-     console.log(b.valueOf() );
+    //  console.log(typeof a);
+    //  console.log(typeof b);
+    //  console.log(a.valueOf() );
+    //  console.log(b.valueOf() );
  
      if(isNaN(a) || isNaN(b) ) {
          console.log(` arqumentler eded deyil`);     
@@ -170,4 +170,4 @@ const arrayCompare = () => {
 
 }
 
-// arrayCompare()
+arrayCompare()
